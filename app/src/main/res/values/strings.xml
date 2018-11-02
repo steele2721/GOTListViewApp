@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GOTListViewApp</string>
+    <string name="got_logo">Game Of Thrones Logo</string>
+    <string-array name="top_level_items">
+        <item>Houses</item>
+        <item>Kingdoms</item>
+        <item>Trivia</item>
+    </string-array>
+</resources>
