@@ -6,4 +6,9 @@
         <item>Kingdoms</item>
         <item>Trivia</item>
     </string-array>
+    <string-array name="house_category_items">
+        <item>Stark</item>
+        <item>Targaryen</item>
+        <item>Lannister</item>
+    </string-array>
 </resources>

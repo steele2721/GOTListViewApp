@@ -9,14 +9,14 @@ public class House {
     private int imageResourceId;
 
     public static final House[] houses = {
-          new House("Stark", "John Snow", R.drawable.stark),
-            new House("Lannister", "Cerci Lannister", R.drawable.lannister),
-            new House("Targaryen", "Dani Targaryen", R.drawable.targaryen)
+          new House("Stark", "Winter Is Coming", R.drawable.stark),
+            new House("Lannister", "A Lannister Always Pays Its debts", R.drawable.lannister),
+            new House("Targaryen", "Burn them all", R.drawable.targaryen)
     };
 
-    private House(String name, String lord, int imageResourceId) {
+    private House(String name, String words, int imageResourceId) {
         this.name = name;
-        this.lord = lord;
+        this.words = words;
         this.imageResourceId = imageResourceId;
     }
 
